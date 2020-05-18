@@ -11,9 +11,9 @@ permalink: /install/
         {% for item in site.data.install %}
         <div>
           <a href="{{ item.url }}">
-            <div class="distro-icon">
+            <span class="distro-icon">
               <img src="{{ item.icon | asset_path }}">
-            </div>
+            </span>
             {{item.caption}}
           </a>
         </div>
